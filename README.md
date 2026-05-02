@@ -52,8 +52,7 @@ terra-site/
 
 ## Client portal
 
-The header **Client Login** button, hero CTA, and contact section all link to the live project dashboard:
-https://www.perplexity.ai/computer/a/44-cameron-rd-dashboard-aUpoKcH3TfGY9e.uZfX_mA
+The header **Client Login** button, hero CTA, and contact section currently anchor to a `#client-portal` placeholder section on the homepage ("Launching soon"). Once the dashboard is published to a permanent public URL, swap the five `#client-portal` anchor hrefs in `index.html` for the real URL.
 
 ## Local development
 
