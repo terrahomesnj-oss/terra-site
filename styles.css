@@ -580,6 +580,66 @@ h1, h2, h3, h4 {
   font-weight: 500;
 }
 
+/* Client Portal Status ------------------------------------------------------ */
+.portal-status { border-top: 1px solid var(--line); }
+.portal-inner { max-width: 920px; }
+.portal-lede {
+  text-align: center;
+  max-width: 660px;
+  margin: 0 auto 2rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+.portal-cta {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: clamp(2.5rem, 5vw, 3.5rem);
+}
+.portal-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  border-top: 1px solid var(--line);
+  padding-top: clamp(2rem, 4vw, 3rem);
+}
+.portal-features li {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.pf-num {
+  font-family: var(--serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+.portal-features h4 {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+  color: var(--navy-deep);
+  font-variation-settings: "opsz" 24;
+}
+.portal-features p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+@media (max-width: 720px) {
+  .portal-features { grid-template-columns: 1fr; }
+}
+
 /* Testimonial --------------------------------------------------------------- */
 .testimonial {
   background: var(--bg);
